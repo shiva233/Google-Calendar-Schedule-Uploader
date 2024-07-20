@@ -1,0 +1,6 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Google API credentials and tokens
+credentials.json
+token.json
