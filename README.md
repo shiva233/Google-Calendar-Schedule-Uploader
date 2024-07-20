@@ -11,7 +11,7 @@ This project demonstrates how to use the Google Calendar API to upload a schedul
 
 ## Pre-Usage Setup
 
-1. **Install Requirements**
+### 1. **Install Requirements**
 
    Install the required Python libraries using pip:
 
@@ -19,7 +19,7 @@ This project demonstrates how to use the Google Calendar API to upload a schedul
    pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
    ```
 
-2. Obtain Google API Credentials
+### 2. Obtain Google API Credentials
 
 - Go to the Google Cloud Console.
 - Create a new project.
@@ -27,23 +27,23 @@ This project demonstrates how to use the Google Calendar API to upload a schedul
 - Create credentials (OAuth 2.0 Client IDs) and download the credentials.json file. (you might need to rename the file to credentials.json if it is not already)
 - Put this credentials.json in the same folder as the Python script
 
-3. Authentication
+### 3. Authentication
 - Before adding your schedule run the Python file
 - Authorize access to your Google account
 - If it says access denied go back to your Google Cloud Console and add your email as a test user
 
 ## Usage
 
-1. Modify the base_date
+### 1. Modify the base_date
 Modify the base_date in the main() function to correspond with the date you would like to add events for in YEAR/MONTH/DAY
-## Example
+#### Example
 Here's an example
 ```python
 #Saturday Schedule
 base_date = datetime.date(2024, 7, 20)
 ```
 
-3. Modify the Schedule
+### 2. Modify the Schedule
 
   
 
@@ -57,14 +57,14 @@ base_date = datetime.date(2024, 7, 20)
 - Color ID (Google Calendar color ID, CHART LINKED BELOW)
 - ![image](https://github.com/user-attachments/assets/5db1c5bd-8b2c-4d83-a71b-b3cb30995b05)
 
-  ## Example
+  #### Example
   Here's an example of a schedule entry:
   ```python
   ("Wake up Morning routine", 9, 0, 9, 30, '5')
   ```
   This entry will create an event titled "Wake up Morning routine" from 9:00 AM to 9:30 AM with color ID '5'.
 
-2. Run the Script
+### 3. Run the Script
 
 Execute the script to upload the schedule to your Google Calendar and enjoy!
 
