@@ -32,7 +32,7 @@ This project demonstrates how to use the Google Calendar API to upload a schedul
 - Authorize access to your Google account
 - If it says access denied go back to your Google Cloud Console and add your email as a test user
 
-##Usage
+## Usage
 
 1. Modify the base_date
 Modify the base_date in the main() function to correspond with the date you would like to add events for in YEAR/MONTH/DAY
@@ -71,7 +71,7 @@ Execute the script to upload the schedule to your Google Calendar and enjoy!
 ##Notes
 - The script assumes the time zone is 'America/Toronto'. Adjust the time zone in the create_event() function if needed.
 - Events that end before they start are considered as spanning to the next day.
-- Currently it has issues with events that go more than one day for example 9pm - 1am (next day)
+- Currently, it has issues with events that go more than one day for example 9pm - 1am (next day)
 - This example schedule was with time blocking in mind which is why the program is configured to only make events for one day at a time
 
 ##License
