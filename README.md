@@ -68,13 +68,13 @@ base_date = datetime.date(2024, 7, 20)
 
 Execute the script to upload the schedule to your Google Calendar and enjoy!
 
-##Notes
+## Notes
 - The script assumes the time zone is 'America/Toronto'. Adjust the time zone in the create_event() function if needed.
 - Events that end before they start are considered as spanning to the next day.
 - Currently, it has issues with events that go more than one day for example 9pm - 1am (next day)
 - This example schedule was with time blocking in mind which is why the program is configured to only make events for one day at a time
 
-##License
+## License
 This project is licensed under the MIT License
 
 
