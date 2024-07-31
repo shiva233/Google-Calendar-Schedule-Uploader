@@ -1,7 +1,6 @@
 # Google Calendar Schedule Uploader
 
-Using Google Calender to timeblock has always been annoying to me, adding each event individually, color coding, etc was all a lot of effort. So I made this script to make it faster for me to upload a timeblocked day to google calender.
-This project demonstrates how to use the Google Calendar API to upload a schedule from a Python script. The script authenticates with Google and creates calendar events based on a predefined schedule that the user adds.
+Time blocking is a very important skill to me, it has helped me be incredibly productive over the summer and I don't know what I would do without it. However using Google Calendar to timeblock has always been a bit tedious for me, with the need to add each event individually and color-code them, and then when there is a disruption having to manually move everything down or up etc. To streamline this process, I developed a script that speeds up uploading a timeblocked day to Google Calendar. This project helped me learn and demonstrate the integration of the Google Calendar API with Python and the basics of authentication.
 
 PS. This is my first time writing a ReadME for a project, so I apologize if any instructions are unclear.
 
