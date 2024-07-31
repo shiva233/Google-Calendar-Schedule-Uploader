@@ -77,6 +77,23 @@ Execute the script to upload the schedule to your Google Calendar and enjoy!
 - Currently, it has issues with events that go more than one day for example 9pm - 1am (next day)
 - This example schedule was with time blocking in mind which is why the program is configured to only make events for one day at a time
 
+## Future Plans:
+
+I plan to significantly expand the capabilities of the Google Calendar Schedule Uploader by integrating the ChatGPT API. This enhancement will allow the tool to intelligently adjust schedules in response to disruptions, providing a more flexible and adaptive time management solution.
+
+The integration will work as follows:
+
+- Intelligent Rescheduling: The user will be able to type in disruptions they have for a certain day into the terminal (e.g., "I woke up at 11am instead of 9am, please adjust my Monday schedule accordingly"). The ChatGPT API will then analyze their base schedule and make modifications to account for the disruption. The adjusted schedule will be automatically uploaded to Google Calendar.
+
+- Handling Various Disruptions: The system will handle various types of disruptions such as unexpected tasks, meeting overruns, and personal commitments, ensuring that users can maintain an organized and effective schedule despite changes.
+
+- User Interaction: Users will interact with the new features through a terminal interface where they can input disruptions along with their base schedule. The tool will then process this information and provide an updated schedule.
+
+- Time saving: Reduces the need for manual adjustments, saving users valuable time keeps them productive. Ensures that users' schedules remain flexible and adaptive to changes.
+
+
+By adding these features im going to hopefully make a robust tool that I can use for myself and hopefully for others to make time blocking more streamlined and efficient
+
 ## License
 This project is licensed under the MIT License
 
